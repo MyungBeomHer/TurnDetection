@@ -54,7 +54,7 @@ torchrun --standalone --nnodes=1 --nproc_per_node=2 train_FRU_parallel.py
 
 ### Model
 <p align="center">
-  <img src="/figure/model.png" width=100%> <br>
+  <img src="/figure/model.png" width=50%> <br>
 </p>
 
 ```
