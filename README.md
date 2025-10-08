@@ -204,3 +204,19 @@ class SmartTurnV3Model(WhisperPreTrainedModel):
 - [smart-turn v3 metric](https://www.daily.co/blog/announcing-smart-turn-v3-with-cpu-inference-in-just-12ms/)
 - [pipecat-ai Dataset](https://huggingface.co/pipecat-ai)
 - [FRU-Adapter](https://github.com/SeoulTech-HCIRLab/FRU-Adapter)
+
+## ✏️ Citation
+
+If you think this project is helpful, please feel free to leave a star⭐️ and cite our paper:
+```bash
+@article{her2025fru,
+  title={FRU-Adapter: Frame Recalibration Unit Adapter for Dynamic Facial Expression Recognition},
+  author={Her, Myungbeom and Nabi, Hamza Ghulam and Han, Ji-Hyeong},
+  journal={Electronics},
+  volume={14},
+  number={5},
+  pages={978},
+  year={2025},
+  publisher={MDPI}
+}
+```
