@@ -200,9 +200,7 @@ class SmartTurnV3Model(WhisperPreTrainedModel):
 
 ### Reference Repo
 - [Whisper](https://github.com/openai/whisper)
-- [Whisper Finetuned by Zeroth-Korean Dataset](https://huggingface.co/seastar105/whisper-medium-ko-zeroth)
-- [Zeroth-Korean Dataset](https://huggingface.co/datasets/kresnik/zeroth_korean?utm_source=chatgpt.com)
-- [Facebook denoiser](https://github.com/facebookresearch/denoiser)
-- [MetricGAN+](https://github.com/wooseok-shin/MetricGAN-plus-pytorch)
-- [Demucs](https://github.com/facebookresearch/demucs)
-- [LORA](https://github.com/huggingface/peft)
+- [smart-turn v3](https://github.com/pipecat-ai/smart-turn)
+- [smart-turn v3 metric](https://www.daily.co/blog/announcing-smart-turn-v3-with-cpu-inference-in-just-12ms/)
+- [pipecat-ai Dataset](https://huggingface.co/pipecat-ai)
+- [FRU-Adapter](https://github.com/SeoulTech-HCIRLab/FRU-Adapter)
