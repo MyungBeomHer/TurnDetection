@@ -128,9 +128,6 @@ class SmartTurnV3Model(WhisperPreTrainedModel):
 
         # (B, T, D)로 변환
         x = x.permute(0, 2, 1)  # (B, T, D)
-
-        # 포지셔널 임베딩 추가 (HF 구현 방식에 맞춤)
-        # HF 코드는 전체 테이블을 add하는데, 실제 길이에 맞춰 잘라 더해도 동일하게 동작
         T = x.size(1)
         pos_ids = torch.arange(T, device=x.device)
         pos_emb = self.encoder.embed_positions(pos_ids)      # (T, D)
@@ -144,7 +141,6 @@ class SmartTurnV3Model(WhisperPreTrainedModel):
         for i, encoder_layer in enumerate(self.encoder.layers):
             # (옵션) LayerDrop
             if self.training and (torch.rand([]) < self.encoder.layerdrop):
-                # 레이어 스킵 시 FRU만 적용(원하면 이 줄 제거 가능)
                 x = x + self.fru_adapter[i](x)
                 continue
 
