@@ -1,4 +1,4 @@
-## AI based Turn Detection (Whisper + FRU-Adapter)
+## AI based Turn Detection (Whisper Encoder + FRU-Adapter)
 
 팀원 : [허명범](https://github.com/MyungBeomHer)
 
